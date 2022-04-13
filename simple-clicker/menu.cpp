@@ -22,7 +22,7 @@ static int selected_cheat = 0;
 
 class initWindow {
 public:
-    const char* window_title = "injecter.club";
+    const char* window_title = "injector.club";
     ImVec2 window_size{ 220, 205 };
     
     DWORD window_flags = ImGuiWindowFlags_NoSavedSettings | ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoResize;
